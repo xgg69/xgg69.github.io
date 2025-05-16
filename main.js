@@ -16,3 +16,6 @@ function showElem(sh) {
         document.getElementById(sh).style.display='none';
     }
 }
+function loadPage(pg) {
+    window.location = pg;
+}
