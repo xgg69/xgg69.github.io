@@ -17,5 +17,5 @@ function showElem(sh) {
     }
 }
 function loadPage(pg) {
-    window.location = pg;
+    window.location.assign(pg);
 }
