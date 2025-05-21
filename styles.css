@@ -52,7 +52,7 @@ pic {
 }
 
 a {
-    display: flex;
+    display: flex;    
     cursor: pointer;
     font-size: 22px;
 }
@@ -76,6 +76,11 @@ a {
     font-family: monospace;
     color: black;
     transform: translate(-50%, 0);
+}
+.dots {
+    position: absolute;
+    right: 6px;
+    width: 50px;
 }
 
 b {
