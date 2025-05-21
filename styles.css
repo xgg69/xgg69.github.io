@@ -80,7 +80,10 @@ a {
 .dots {
     position: absolute;
     right: 6px;
+}
+.dotsB {
     width: 60px;
+    height: 50px;
 }
 
 b {
