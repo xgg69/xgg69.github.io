@@ -79,13 +79,11 @@ a {
 }
 .dots {
     position: absolute;
-    right: 6px;
-}
-.dotsB {
+    top: 0px;
+    left: 10%;
     width: 60px;
     height: 50px;
 }
-
 b {
     list-style: none;
     align-content: center;
