@@ -93,10 +93,10 @@ b {
     background-color: white;
     transform: translate(0px, 0px);
     transition: 100ms;
-    outline-style: solid;
+    outline-style: outset;
     outline-offset: -3px;
     outline-width: 3px;
-    outline-color: pink;
+    outline-color: whitesmoke;
 }
 b::before {
     content: '';
