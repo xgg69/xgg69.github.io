@@ -12,24 +12,6 @@ body {
     border-bottom: 3px solid black;
     background-color: white;
 }
-.btn1 {
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    border-radius: 0;
-    border-top-right-radius: 23px;
-    border-bottom-left-radius: 23px;
-    border-bottom: 23px solid black;
-    border-right: 23px solid black;
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    transition: linear all 800ms;
-    background-color: rgb(134, 72, 134);
-    font-family: monospace;
-    font-weight: bolder;
-    color: cornsilk;
-}
 .btn1:hover {
     border: 3px solid black;
     border-radius: 0;
@@ -56,19 +38,6 @@ a {
     cursor: pointer;
     font-size: 22px;
 }
-
-.some {
-    position: absolute;
-    top: 180px;
-    left: 180px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: brown;
-    transform: translate(-50%, -50%);
-}
-.someB {
-    width: 240px;
-    height: 120px;
-}
 .topBtns {
     position: absolute;
     top: 0;
@@ -77,10 +46,25 @@ a {
     color: black;
     transform: translate(-50%, 0);
 }
+.topBtn {
+    width: 120px;
+    height: 50px;
+}
+.fps {
+    background-color: pink;
+    width: 80px;
+    height: 50px;
+}
+.fps:hover {
+    width: 180px;
+    background-image: url("img/fps_button.png");
+}
 .dots {
     position: absolute;
     top: 0px;
     right: 6px;
+}
+.dotsB {
     width: 60px;
     height: 50px;
 }
@@ -88,15 +72,13 @@ b {
     list-style: none;
     align-content: center;
     text-align: center;
-    width: 120px;
-    height: 50px;
     background-color: white;
     transform: translate(0px, 0px);
     transition: 100ms;
-    outline-style: outset;
+    /*outline-style: outset;
     outline-offset: -3px;
     outline-width: 3px;
-    outline-color: whitesmoke;
+    outline-color: whitesmoke;*/
 }
 b::before {
     content: '';
@@ -152,7 +134,7 @@ b:hover::after {
 b:active {
     transform: translate(6px, 6px);
     transition: 100ms;
-    outline-style: inset;
+    /*outline-style: inset;*/
 }
 b:active::before {
     width: 0;
